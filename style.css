@@ -344,6 +344,19 @@ button {
   animation: heroReveal 1.2s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
+.hero__logo {
+  width: clamp(260px, 65vw, 900px);
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 0 20px rgba(240,237,232,0.08));
+  animation: heroReveal 1.2s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.hero__acronym {
+  opacity: 0.55;
+  letter-spacing: 0.25em;
+}
+
 @keyframes heroReveal {
   from {
     opacity: 0;
