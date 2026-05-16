@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Roky — Alfarouq Alderwish. Libyan-born artist based in Dubai. Stencil, spray paint, and symbol-driven work exploring institutional accountability, humanitarian memory, and identity." />
+  <meta name="author" content="Alfarouq Alderwish" />
+  <meta property="og:title" content="ROKY — Art that confronts." />
+  <meta property="og:description" content="Stencil and spray paint artist based in Dubai. High-contrast, symbol-driven work." />
+  <meta property="og:type" content="website" />
+  <title>ROKY — Art that confronts.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav" id="nav">
+    <a class="nav__logo" href="#hero">ROKY</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#works" class="nav__link">Works</a></li>
+      <li><a href="#about" class="nav__link">About</a></li>
+      <li><a href="#contact" class="nav__link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__noise" aria-hidden="true"></div>
+    <div class="hero__content">
+      <h1 class="hero__name">ROKY</h1>
+      <p class="hero__tagline">Art&nbsp;that&nbsp;confronts.</p>
+      <div class="hero__sub">Stencil &amp; Spray Paint &mdash; Dubai</div>
+    </div>
+    <a class="hero__scroll" href="#works" aria-label="Scroll to works">
+      <span class="hero__scroll-label">Scroll</span>
+      <div class="hero__scroll-arrow" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+    </a>
+  </section>
+
+  <!-- WORKS -->
+  <section class="section works" id="works">
+    <div class="container">
+      <header class="section__header">
+        <h2 class="section__title">Works</h2>
+        <span class="section__line" aria-hidden="true"></span>
+      </header>
+
+      <div class="gallery" id="gallery">
+
+        <article class="gallery__item" data-index="0">
+          <div class="gallery__img-wrap">
+            <img src="images/the-leader-physical.jpg"
+                 alt="The Leader — spray paint on gold background, 2025"
+                 loading="lazy" />
+            <div class="gallery__overlay">
+              <span class="gallery__title">The Leader</span>
+              <span class="gallery__year">2025</span>
+              <span class="gallery__medium">Spray paint on gold background</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="gallery__item" data-index="1">
+          <div class="gallery__img-wrap">
+            <img src="images/fleeing-child.jpg"
+                 alt="Fleeing Child — digital stencil, 2025"
+                 loading="lazy" />
+            <div class="gallery__overlay">
+              <span class="gallery__title">Fleeing Child</span>
+              <span class="gallery__year">2025</span>
+              <span class="gallery__medium">Digital stencil</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="gallery__item" data-index="2">
+          <div class="gallery__img-wrap">
+            <img src="images/julius-caesar-blue.png"
+                 alt="The Bust of Julius Caesar (Blue), 2025–2026"
+                 loading="lazy" />
+            <div class="gallery__overlay">
+              <span class="gallery__title">The Bust of Julius Caesar</span>
+              <span class="gallery__year">2025&ndash;2026</span>
+              <span class="gallery__medium">Blue edition</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="gallery__item" data-index="3">
+          <div class="gallery__img-wrap">
+            <img src="images/julius-caesar-crimson.png"
+                 alt="The Bust of Julius Caesar (Crimson), 2025–2026"
+                 loading="lazy" />
+            <div class="gallery__overlay">
+              <span class="gallery__title">The Bust of Julius Caesar</span>
+              <span class="gallery__year">2025&ndash;2026</span>
+              <span class="gallery__medium">Crimson edition</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="gallery__item" data-index="4">
+          <div class="gallery__img-wrap">
+            <img src="images/icj-globe.png"
+                 alt="ICJ / Globe, 2025–2026"
+                 loading="lazy" />
+            <div class="gallery__overlay">
+              <span class="gallery__title">ICJ / Globe</span>
+              <span class="gallery__year">2025&ndash;2026</span>
+              <span class="gallery__medium">Digital stencil</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="gallery__item" data-index="5">
+          <div class="gallery__img-wrap">
+            <img src="images/the-leader-digital.jpg"
+                 alt="The Leader (Digital), 2025"
+                 loading="lazy" />
+            <div class="gallery__overlay">
+              <span class="gallery__title">The Leader</span>
+              <span class="gallery__year">2025</span>
+              <span class="gallery__medium">Digital edition</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="gallery__item" data-index="6">
+          <div class="gallery__img-wrap">
+            <img src="images/work-misc-1.jpg"
+                 alt="Roky — work, 2025"
+                 loading="lazy" />
+            <div class="gallery__overlay">
+              <span class="gallery__title">Study</span>
+              <span class="gallery__year">2025</span>
+              <span class="gallery__medium">Spray paint</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="gallery__item" data-index="7">
+          <div class="gallery__img-wrap">
+            <img src="images/work-misc-2.png"
+                 alt="Roky — work, 2025"
+                 loading="lazy" />
+            <div class="gallery__overlay">
+              <span class="gallery__title">Study II</span>
+              <span class="gallery__year">2025</span>
+              <span class="gallery__medium">Mixed media</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Text-only card: Walking Between Missiles -->
+        <article class="gallery__item gallery__item--text" data-index="8">
+          <div class="gallery__img-wrap gallery__img-wrap--text">
+            <div class="gallery__text-card">
+              <span class="gallery__text-card-title">Walking Between Missiles</span>
+              <span class="gallery__text-card-year">2026</span>
+              <span class="gallery__text-card-note">Large-format stencil work</span>
+            </div>
+            <div class="gallery__overlay">
+              <span class="gallery__title">Walking Between Missiles</span>
+              <span class="gallery__year">2026</span>
+              <span class="gallery__medium">Stencil &amp; spray paint</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Text-only card: Peace Bird -->
+        <article class="gallery__item gallery__item--text" data-index="9">
+          <div class="gallery__img-wrap gallery__img-wrap--text">
+            <div class="gallery__text-card">
+              <span class="gallery__text-card-title">Peace Bird</span>
+              <span class="gallery__text-card-year">2024</span>
+              <span class="gallery__text-card-note">Tripoli, Libya</span>
+            </div>
+            <div class="gallery__overlay">
+              <span class="gallery__title">Peace Bird</span>
+              <span class="gallery__year">2024</span>
+              <span class="gallery__medium">Tripoli, Libya</span>
+            </div>
+          </div>
+        </article>
+
+      </div><!-- /gallery -->
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container">
+      <header class="section__header">
+        <h2 class="section__title">About</h2>
+        <span class="section__line" aria-hidden="true"></span>
+      </header>
+      <div class="about__grid">
+        <div class="about__portrait">
+          <div class="about__portrait-frame">
+            <div class="about__portrait-placeholder" aria-label="Artist portrait">
+              <span class="about__portrait-initials">R</span>
+            </div>
+          </div>
+          <div class="about__portrait-caption">
+            <span class="about__name-full">Alfarouq Alderwish</span>
+            <span class="about__alias">b. Libya &mdash; based Dubai, UAE</span>
+          </div>
+        </div>
+        <div class="about__text">
+          <blockquote class="about__bio">
+            &ldquo;Libyan-born artist based in Dubai, working under the name Roky. My practice centres on stencil and spray paint &mdash; high-contrast, symbol-driven work exploring institutional accountability, humanitarian memory, and identity. I use the visual language of international law and historical iconography against itself. I am also a first-year Architecture student at Heriot-Watt University Dubai.&rdquo;
+          </blockquote>
+          <ul class="about__facts">
+            <li>
+              <span class="about__fact-label">Medium</span>
+              <span class="about__fact-value">Hand-cut stencil, spray paint, digital (Krita)</span>
+            </li>
+            <li>
+              <span class="about__fact-label">Practice</span>
+              <span class="about__fact-value">Institutional accountability &middot; Humanitarian memory &middot; Identity &middot; Political silence</span>
+            </li>
+            <li>
+              <span class="about__fact-label">Series</span>
+              <span class="about__fact-value">Institutional Silence &middot; R.O.K.Y. &middot; The Leader</span>
+            </li>
+            <li>
+              <span class="about__fact-label">Education</span>
+              <span class="about__fact-value">Architecture, Heriot-Watt University Dubai</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <header class="section__header">
+        <h2 class="section__title">Contact</h2>
+        <span class="section__line" aria-hidden="true"></span>
+      </header>
+      <div class="contact__body">
+        <p class="contact__lead">Available for commissions, exhibitions, and collaborations.</p>
+        <ul class="contact__links">
+          <li>
+            <a class="contact__link" href="mailto:farouqalder1234@gmail.com">
+              <svg class="contact__icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="2" y="4" width="20" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M2 7l10 7 10-7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              <span>farouqalder1234@gmail.com</span>
+            </a>
+          </li>
+          <li>
+            <a class="contact__link" href="https://instagram.com/rokyartist" target="_blank" rel="noopener noreferrer">
+              <svg class="contact__icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"/>
+                <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/>
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+              </svg>
+              <span>@rokyartist</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <span class="footer__name">ROKY &mdash; Alfarouq Alderwish</span>
+      <span class="footer__copy">&copy; 2026. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox" hidden>
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close lightbox">&times;</button>
+    <button class="lightbox__prev" id="lightboxPrev" aria-label="Previous image">&#8592;</button>
+    <button class="lightbox__next" id="lightboxNext" aria-label="Next image">&#8594;</button>
+    <div class="lightbox__backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox__content">
+      <img class="lightbox__img" id="lightboxImg" src="" alt="" />
+      <div class="lightbox__caption">
+        <span class="lightbox__caption-title" id="lightboxTitle"></span>
+        <span class="lightbox__caption-meta" id="lightboxMeta"></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
