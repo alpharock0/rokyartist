@@ -269,24 +269,13 @@ button {
   justify-content: center;
   overflow: hidden;
   background-color: var(--color-bg);
-  background-image: url('images/hero-bg.png');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-image: url('images/hero-bg.png'), url('images/hero-bg2.png');
+  background-size: cover, cover;
+  background-position: center center, center center;
+  background-repeat: no-repeat, no-repeat;
+  background-blend-mode: screen, normal;
 }
 
-.hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image: url('images/hero-bg2.png');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  opacity: 0.13;
-  pointer-events: none;
-  z-index: 0;
-}
 
 
 /* Grain / noise overlay using SVG turbulence */
